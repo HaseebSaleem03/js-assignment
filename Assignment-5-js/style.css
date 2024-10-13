@@ -1,0 +1,92 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: whitesmoke;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        div {
+            max-width: 400px;
+            margin: auto;
+            padding: 30px;
+            background-color: #C96868;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #f9eaea;
+        }
+
+        #search {
+            margin-bottom: 15px;
+        }
+
+        input[type="text"] {
+            width: 70%;
+            padding: 12px;
+            border: 2px solid whitesmoke;
+            border-radius: 6px;
+            transition: border-color 0.2s;
+        }
+
+        input[type="text"]:focus {
+            border-color: #28a745;
+            outline: none;
+        }
+
+        input[type="submit"],
+        button {
+            padding: 12px;
+            margin-left: 10px;
+            border: none;
+            background-color: #FFAD60;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        ul {
+            list-style: none;
+            margin-top: 20px;
+            padding: 0;
+        }
+
+        li {
+            padding: 12px;
+            margin: 6px 0;
+            border-radius: 8px;
+            background-color: rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            color: white;
+        }
+
+        li:hover {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        .remove-button {
+            background-color: #af414c;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+            padding: 6px 12px;
+        }
+
+        .remove-button:hover {
+            background-color: #c82333;
+        }
